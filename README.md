@@ -1,46 +1,46 @@
-# SquadMC - The map-based mortar calculator for Squad
+# PostScriptumMC - The map-based mortar calculator for Squad44
 
-SquadMC is a map-based mortar elevation and bearing calculator for the game [*Squad*](http://joinsquad.com/).
+PostScriptumMC is a map-based mortar elevation and bearing calculator for the game [*Squad44*](http://joinsquad44.com/), formerly known as Post Scriptum.
 
 ![IPhone 5 Screenshot](./public/img/iphone_screenshot.png)
 
 ## Links
 
- * **current version: https://squadmc.ende.pro**
- * a version for the game [*Post Scriptum*](http://postscriptumgame.com/): **https://postscriptum.squadmc.ende.pro**
-   * shorter url: **https://psmc.ende.pro**
-   * I don't own the game myself, so I need feedback from other players
-   * check out the [postscriptum branch](https://github.com/Endebert/squadmc/tree/postscriptum) for the code
- * map files are stored in another repository: https://github.com/Endebert/squadmc-maps
+* **Current version: https://psmc.michalletavka.cz/**
+* Original version, for the game [*Squad*](http://joinsquad.com/): **https://squadmc.ende.pro/**
+  * From repository https://github.com/Endebert/squadmc
+* Map files are stored in another repository: https://github.com/michalletavka/squadmc-maps
+
 ## Features
- * highly accurate elevation and bearing calculation, using heightmaps and mortar shell trajectory function
- * optimized for mobile
- * quick placement and dragging of mortar, target, and FOB markers
- * supports multiple mortar, target, and FOB markers, and allows switching between them
- * min & max mortar range indication
- * max build range and min distance to next FOB indication
- * keypad grid (toggleable)
- * keypad coordinates calculation
- * location markers (toggleable)
- * visible heightmap (toggleable)
+* Highly accurate elevation and bearing calculation, using heightmaps and mortar shell trajectory function
+* Optimized for mobile
+* Quick placement and dragging of mortar, target, and FOB markers
+* Supports multiple mortar, target, and FOB markers, and allows switching between them
+* Min & max mortar range indication
+* Max build range and min distance to next FOB indication
+* Keypad grid (toggleable)
+* Keypad coordinates calculation
+* Location markers (toggleable)
+* Visible heightmap (toggleable)
+* Orthomaps/satellite maps (toggleable)
 
 ## Changelog
- * see here: [Changelog](CHANGELOG.md)
+* See [Changelog](CHANGELOG.md)
 
-## installation
+## Installation
 
 ### Installation Prerequisites
 
- * you need a recent NodeJS version installed on your machine. Get it [here.](https://nodejs.org/en/)
- * install yarn for a faster installation:
-   ```
-   npm install -g yarn
-   ```
+* you need a recent NodeJS version installed on your machine. Get it [here.](https://nodejs.org/en/)
+* install yarn for a faster installation:
+  ```
+  npm install -g yarn
+  ```
 
 ### Cloning repository & installing dependencies
 
 ```
-git clone https://github.com/Endebert/squadmc.git
+git clone https://github.com/michalletavka/squadmc
 cd squadmc
 yarn install
 ```
@@ -61,19 +61,11 @@ yarn run build
 The build will be contained in the `/dist` folder.
 
 ## Code of Conduct
- * See here: [Code of Conduct](CODE_OF_CONDUCT.md)
+* See here: [Code of Conduct](CODE_OF_CONDUCT.md)
 
 ## Contributors
- * [Trikolon](https://github.com/Trikolon)
- * [Kalliser](https://github.com/Kalliser)
- * [TopMak](https://github.com/TopMak)
- * [ansarto](https://github.com/ansarto)
- * [ekzyis](https://github.com/ekzyis)
+* Become one!
 
 ## Attributions
- * Keypad grid originally based on [Leaflet.SimpleGraticule](https://github.com/ablakey/Leaflet.SimpleGraticule), but not much is left from the original code
- * Special thanks to the people over at [www.airpressuretendency.net](https://www.airpressuretendency.net/fcsquad/squadmaps/). Their interactive maps were the inspiration for this project.
- * UI powered by [Vue.js![Vue.js](./public/img/logos/logo_vuejs.png)](https://vuejs.org/) and [Vuetify![Vue.js](./public/img/logos/logo_vuetify.png)](http://vuetifyjs.com/)
- * Maps © [Offworld Industries](http://joinsquad.com/), powered by [![Leaflet](./public/img/logos/logo_leaflet.png)](https://leafletjs.com/)
- * Tested with [![BrowserStack](./public/img/logos/logo_browserstack.png)](https://www.browserstack.com/)
- * Deployed using [![Netlify](https://cdn.netlify.com/15ecf59b59c9d04b88097c6b5d2c7e8a7d1302d0/1b6d6/img/press/logos/full-logo-light.svg)](https://www.netlify.com)
+* Original Post Scriptum Mortar Calculator https://psmc.ende.pro/ by https://github.com/Endebert
+* Maps © [Offworld Industries](http://joinsquad44.com/), powered by https://leafletjs.com/
