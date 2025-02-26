@@ -1,5 +1,9 @@
 # Change Log
 
+<a name="2.15.3"></a>
+# 2.15.3 (2025-02-26)
+* Added Japan mortar
+
 <a name="2.15.2"></a>
 # 2.15.2 (2023-12-29)
 * Added mortar vehicles
