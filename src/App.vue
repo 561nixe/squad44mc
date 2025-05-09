@@ -12,7 +12,7 @@ const postScriptum = true;
 const mapData = new MapData();
 
 // adapt for local testing or when forking the project
-let baseUrl = "https://github.com/561nixe/squad44mc/actions/runs/14927399470/job/41935294513";
+let baseUrl = "https://561nixe.github.io/squad44mc/";
 if (postScriptum) { baseUrl += "/"; }
 
 export default {
